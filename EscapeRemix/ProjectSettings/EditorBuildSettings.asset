@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/map_intro.unity
+    guid: 96397c706a17603428b3ae200b208bb6
+  - enabled: 0
+    path: Assets/Scenes/map_commons.unity
+    guid: 4d51bc5ed9a45cb499d682f2d28ecb9d
+  - enabled: 0
+    path: Assets/Scenes/map1_puzzle.unity
+    guid: 87453f01cad812147a9b8bfd16669923
+  - enabled: 0
+    path: Assets/Scenes/map2_puzzle.unity
+    guid: 29f5c2a2bbc072c48bba374d2bdaab3c
+  - enabled: 0
+    path: Assets/Scenes/map3_puzzle.unity
+    guid: aae365d904bb7f94c80944255265873d
+  - enabled: 1
+    path: Assets/Scenes/map_puzzle.unity
+    guid: 5cb6d98eda3f75a4fb682cd65b8909ed

@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 8c20c380af461574f99424a22acd34c1
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: HipJoint01
+    100002: Left_ArmJoint01
+    100004: Left_ElbowJoint01
+    100006: Left_WristJoint01
+    100008: Left_ToeJoint01
+    100010: HeadJoint01
+    100012: ChestJoint01
+    100014: //RootNode
+    100016: Right_WristJoint01
+    100018: Left_AnkleJoint01
+    100020: Right_ArmJoint01
+    100022: Left_ThighJoint01
+    100024: Right_ElbowJoint01
+    100026: Left_KneeJoint01
+    100028: Right_AnkleJoint01
+    100030: Right_ThighJoint01
+    100032: Right_KneeJoint01
+    100034: RootJoint01
+    100036: Right_ShoulderJoint01
+    100038: Teddy_Bear
+    100040: Left_ShoulderJoint01
+    100042: Right_ToeJoint01
+    400000: HipJoint01
+    400002: Left_ArmJoint01
+    400004: Left_ElbowJoint01
+    400006: Left_WristJoint01
+    400008: Left_ToeJoint01
+    400010: HeadJoint01
+    400012: ChestJoint01
+    400014: //RootNode
+    400016: Right_WristJoint01
+    400018: Left_AnkleJoint01
+    400020: Right_ArmJoint01
+    400022: Left_ThighJoint01
+    400024: Right_ElbowJoint01
+    400026: Left_KneeJoint01
+    400028: Right_AnkleJoint01
+    400030: Right_ThighJoint01
+    400032: Right_KneeJoint01
+    400034: RootJoint01
+    400036: Right_ShoulderJoint01
+    400038: Teddy_Bear
+    400040: Left_ShoulderJoint01
+    400042: Right_ToeJoint01
+    4300000: Teddy_Bear
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Teddy_Bear
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeddyBear1
+    second: {fileID: 2100000, guid: f5294d661371a4446a8ef1d6690b5f5c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: RootJoint01
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: 0.11251462, y: 0, z: 0.05625731}
+        length: 0.14064331
+        modified: 1
+    - boneName: Left_ThighJoint01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.000004, y: -60.000004, z: -90}
+        max: {x: 60.000004, y: 60.000004, z: 50}
+        value: {x: 0.15927921, y: 0, z: 0.079639606}
+        length: 0.19909908
+        modified: 1
+    - boneName: Right_ThighJoint01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.000004, y: -60.000004, z: -90}
+        max: {x: 60.000004, y: 60.000004, z: 50}
+        value: {x: 0.15927906, y: 0, z: 0.07963953}
+        length: 0.1990989
+        modified: 1
+    - boneName: Left_KneeJoint01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: 0.13022225, y: 0, z: 0.06511112}
+        length: 0.16277787
+        modified: 1
+    - boneName: Right_KneeJoint01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: 0.13022178, y: 0, z: 0.06511089}
+        length: 0.1627773
+        modified: 1
+    - boneName: Left_AnkleJoint01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.000002, z: -50}
+        max: {x: 0, y: 30.000002, z: 50}
+        value: {x: 0.09115084, y: 0, z: 0.04557542}
+        length: 0.113938585
+        modified: 1
+    - boneName: Right_AnkleJoint01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.000002, z: -50}
+        max: {x: 0, y: 30.000002, z: 50}
+        value: {x: 0.09115114, y: 0, z: 0.04557557}
+        length: 0.11393896
+        modified: 1
+    - boneName: ChestJoint01
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: 0.15146804, y: 0, z: 0.07573402}
+        length: 0.18933512
+        modified: 1
+    - boneName: HeadJoint01
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: 0.03786701, y: 0, z: 0.018933505}
+        length: 0.04733378
+        modified: 1
+    - boneName: Left_ShoulderJoint01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.000002}
+        value: {x: 0.056999438, y: 0, z: 0.028499719}
+        length: 0.07124931
+        modified: 1
+    - boneName: Right_ShoulderJoint01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.000002}
+        value: {x: 0.056999598, y: 0, z: 0.028499799}
+        length: 0.071249515
+        modified: 1
+    - boneName: Left_ArmJoint01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -30.000002}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: 0.11895494, y: 0, z: 0.05947747}
+        length: 0.14869371
+        modified: 1
+    - boneName: Right_ArmJoint01
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -30.000002}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: 0.118954524, y: 0, z: 0.059477262}
+        length: 0.14869319
+        modified: 1
+    - boneName: Left_ElbowJoint01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: 0.08383831, y: 0, z: 0.041919153}
+        length: 0.104797915
+        modified: 1
+    - boneName: Right_ElbowJoint01
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: 0.083838254, y: 0, z: 0.041919127}
+        length: 0.104797855
+        modified: 1
+    - boneName: Left_WristJoint01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: 0.041919153, y: 0, z: 0.020959577}
+        length: 0.052398957
+        modified: 1
+    - boneName: Right_WristJoint01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: 0.041919127, y: 0, z: 0.020959564}
+        length: 0.052398928
+        modified: 1
+    - boneName: Left_ToeJoint01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: 0.023400867, y: 0, z: 0.011700434}
+        length: 0.029251093
+        modified: 1
+    - boneName: Right_ToeJoint01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: -50}
+        max: {x: 0, y: 0, z: 50}
+        value: {x: 0.023400968, y: 0, z: 0.011700484}
+        length: 0.02925122
+        modified: 1
+    skeleton:
+    - name: TeddyBear(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Teddy_Bear
+      parentName: TeddyBear(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RootJoint01
+      parentName: TeddyBear(Clone)
+      position: {x: 0, y: 0.39923066, z: -0.0024980842}
+      rotation: {x: 0.48044342, y: -0.5188199, z: -0.48044342, w: 0.5188199}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: HipJoint01
+      parentName: RootJoint01
+      position: {x: -0.04682069, y: 0.0015306138, z: -1.0056416e-17}
+      rotation: {x: -0, y: -0, z: 0.6794496, w: 0.7337222}
+      scale: {x: 1.0000017, y: 1.0000001, z: 1.0000014}
+    - name: Right_ThighJoint01
+      parentName: HipJoint01
+      position: {x: 0.0026949616, y: -0.04790278, z: -0.15449299}
+      rotation: {x: 0.73332846, y: -0.6798746, z: -0.000000059604645, w: 0}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.000001}
+    - name: Right_KneeJoint01
+      parentName: Right_ThighJoint01
+      position: {x: 0.19909889, y: -0.00000004834631, z: -7.638334e-16}
+      rotation: {x: -0.011240126, y: 0.0421463, z: -0.25744036, w: -0.9653092}
+      scale: {x: 0.9999999, y: 0.9999997, z: 1.0000006}
+    - name: Right_AnkleJoint01
+      parentName: Right_KneeJoint01
+      position: {x: 0.16275832, y: -0.0024606925, z: -0.00036370748}
+      rotation: {x: 0.024392731, y: -0.036161423, z: 0.5586859, w: -0.8282315}
+      scale: {x: 1.0000008, y: 1.0000018, z: 0.99999976}
+    - name: Right_ToeJoint01
+      parentName: Right_AnkleJoint01
+      position: {x: 0.058388855, y: -0.0036440012, z: -3.5527136e-17}
+      rotation: {x: -0.000000029802322, y: -0.000000059604645, z: -0.04940228, w: 0.998779}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000005}
+    - name: Left_ThighJoint01
+      parentName: HipJoint01
+      position: {x: 0.002694966, y: -0.047902305, z: 0.15449297}
+      rotation: {x: 0.6798746, y: 0.73332846, z: -7.1809534e-17, w: 0.000000059604645}
+      scale: {x: 1.0000011, y: 1.0000004, z: 1.000001}
+    - name: Left_KneeJoint01
+      parentName: Left_ThighJoint01
+      position: {x: -0.1990991, y: -4.4408918e-17, z: 1.0658141e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_AnkleJoint01
+      parentName: Left_KneeJoint01
+      position: {x: -0.1418598, y: -0.07862165, z: -0.013822556}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_ToeJoint01
+      parentName: Left_AnkleJoint01
+      position: {x: -0.043673642, y: 0.03892453, z: 1.0937151e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ChestJoint01
+      parentName: RootJoint01
+      position: {x: -0.14064334, y: -7.001391e-18, z: -3.1229096e-17}
+      rotation: {x: -0, y: -0, z: 0.05987701, w: 0.9982058}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: Right_ShoulderJoint01
+      parentName: ChestJoint01
+      position: {x: -0.13323478, y: -0.01004413, z: -0.11352299}
+      rotation: {x: 0.57720983, y: 0.40844685, z: -0.51332736, w: 0.48630756}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.000001}
+    - name: Right_ArmJoint01
+      parentName: Right_ShoulderJoint01
+      position: {x: 0.071219735, y: -0.002060022, z: -1.7763568e-17}
+      rotation: {x: -0.032059442, y: 0.018765, z: -0.029489484, w: 0.9988746}
+      scale: {x: 0.9999999, y: 1.0000007, z: 1.0000008}
+    - name: Right_ElbowJoint01
+      parentName: Right_ArmJoint01
+      position: {x: 0.1483732, y: -0.0040118694, z: 0.008885919}
+      rotation: {x: -0.7387423, y: 0.021865442, z: 0.048655234, w: -0.6718739}
+      scale: {x: 0.99999964, y: 1.0000008, z: 1.000001}
+    - name: Right_WristJoint01
+      parentName: Right_ElbowJoint01
+      position: {x: 0.10472901, y: 0.00065206614, z: -0.0037415023}
+      rotation: {x: 0.7034996, y: 0.053007543, z: -0.05408904, w: -0.70664907}
+      scale: {x: 0.9999999, y: 1.000001, z: 1.0000008}
+    - name: Left_ShoulderJoint01
+      parentName: ChestJoint01
+      position: {x: -0.13323463, y: -0.010044155, z: 0.113522924}
+      rotation: {x: -0.448516, y: 0.54665655, z: 0.448516, w: 0.54665655}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Left_ArmJoint01
+      parentName: Left_ShoulderJoint01
+      position: {x: -0.07078988, y: -0.008078394, z: 0}
+      rotation: {x: -0.00091212976, y: 0.032546874, z: 0.037398126, w: 0.9987699}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: Left_ElbowJoint01
+      parentName: Left_ArmJoint01
+      position: {x: -0.14806104, y: 0.0023029135, z: -0.013507312}
+      rotation: {x: 0.055067737, y: -0.03449374, z: -0.04559841, w: 0.99684435}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.9999999}
+    - name: Left_WristJoint01
+      parentName: Left_ElbowJoint01
+      position: {x: -0.10451553, y: -0.003166962, z: 0.0070058475}
+      rotation: {x: -0.019915182, y: -0.09749187, z: -0.19914895, w: 0.97490436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HeadJoint01
+      parentName: ChestJoint01
+      position: {x: -0.18933514, y: 3.315906e-17, z: 9.467183e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0.066
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
